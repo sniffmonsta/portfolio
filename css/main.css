@@ -1336,7 +1336,7 @@ header .user-image {
 .dott-problem-tags span {
 	background-color: var(--primary-red);
     color: white;
-    padding: 10px 14px;
+    padding: 6px 4px;
     margin: 5px 0;
     border-radius: 12px;
 }

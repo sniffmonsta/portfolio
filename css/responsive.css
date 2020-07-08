@@ -194,3 +194,10 @@
 		margin-bottom: 20px;
 	}
 }
+
+
+@media (min-width: 1260px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1200px;
+  }
+}
