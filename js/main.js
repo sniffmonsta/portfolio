@@ -253,18 +253,22 @@
                     0 : {
                         items: 1,
                         margin: 10,
+                        stagePadding: 20
                     },
                     480 : {
                         items: 1,
                         margin: 10,
+                        stagePadding: 40
                     },
                     768 : {
                         items: 1,
                         margin: 15,
+                        stagePadding: 80
                     },
                     1200 : {
                         items: 1,
                         margin: 20,
+                        stagePadding: 140
                     }
                 }
             });
