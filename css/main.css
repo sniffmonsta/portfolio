@@ -540,15 +540,16 @@ header .user-image {
 	color: #fb6767;
 	margin-top: -4px;
 	font-family: 'Playfair Display', serif;
-	font-weight: 900;
+  font-weight: 900;
+  position: relative;
 }
 
 .section-heading span {
 	display: block;
-	font-size: 120px;
+	font-size: 90px;
 	position: absolute;
-	top: -67px;
-	opacity: .1;
+	bottom: 0;
+	opacity: .2;
 	line-height: 1;
 	pointer-events: none;
 }
@@ -1254,16 +1255,15 @@ header .user-image {
 }
 
 .portfolio-details-info {
-	padding: 35px;
-	border: 1px solid #2c3146;
-	max-width: 400px;
-	width: 100%;
+  width: 100%;
 }
 
 .portfolio-details-info .tags {
-	border-bottom: 1px solid #2c3146;
-	padding-bottom: 20px;
 	margin-bottom: 20px;
+}
+
+.portfolio-details-info .tags span {
+	color: white;
 }
 
 .portfolio-details-info .tags:last-child {
@@ -1273,12 +1273,11 @@ header .user-image {
 }
 
 .portfolio-details-info .tags span {
-	min-width: 120px;
 	font-weight: 600;
 }
 
 .portfolio-description {
-	color: #fff;
+	/* color: #fff; */
 }
 
 .portfolio-description.lh-fix {
@@ -1321,6 +1320,7 @@ header .user-image {
 /* ==========================================================================
    17. Dott portfolio
 ========================================================================== */
+
 .dott-carousel .owl-stage {
 	padding-left: 0 !important;
 }
@@ -1335,15 +1335,32 @@ header .user-image {
 
 .dott-problem-tags span {
 	background-color: var(--primary-red);
-    color: white;
-    padding: 6px 4px;
-    margin: 5px 0;
-    border-radius: 12px;
+  color: white;
+  padding: 6px 14px;
+  margin: 5px 0;
+  border-radius: 4px;
 }
 
 .dott-data-table {
 	width: 100%;
 }
+
+.dott-description-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 26px;
+}
+
+.dott.container p strong {
+  color: white;
+}
+
+.dott.container h4 {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
 
 
 /* ==========================================================================
