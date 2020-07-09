@@ -149,9 +149,12 @@
 
         // portfolioPopup Init
         function portfolioPopupInit() {
+          var portfolio = '';
             $(document).on('click', '.portfolio-link', function() {
                 var portfolioURL = $(this).attr('href');
-                $('body').addClass('popup-added');
+              // debugger;
+                portfolio = $(this).data('portfolio');
+                $('body').addClass('popup-added ' + portfolio);
                 $('.load-popup-content').addClass('shown');
                 setTimeout(function(){
                     $('.load-popup-content .popup-content-inner').load(portfolioURL+' .load-data > *', function() {
@@ -168,7 +171,7 @@
             });
             // portfolioPopupClose Init
             $('.close-popup-content').on('click', function() {
-                $('body').removeClass('popup-added');
+                $('body').removeClass('popup-added ' + portfolio);
                 $('.load-popup-content .popup-content-inner').empty();
                 $('.load-popup-content').removeClass('shown').css('overflow','auto');
                 setTimeout(function(){

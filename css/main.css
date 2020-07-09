@@ -35,7 +35,8 @@
 /* variables*/
 
 :root {
-	--primary-red: #fb6767;
+  --primary-red: #fb6767;
+  --primary-yellow: #f2c44c;
 }
 
 /* ==========================================================================
@@ -261,7 +262,7 @@ body.popup-added header {
 header .user-image {
 	height: 45px;
 	width: 45px;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 }
 
 .logo {
@@ -1246,7 +1247,7 @@ header .user-image {
 	color: #fff;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
-	font-size: 42px;
+	font-size: 60px;
 	line-height: 1.6;
 }
 
@@ -1360,7 +1361,44 @@ header .user-image {
   font-family: 'IBM Plex Mono', monospace;
 }
 
+/* ==========================================================================
+   18. Adaptive Learning Portfolio
+========================================================================== */
 
+.adaptive-learning {
+  background-color: #fff;
+  color: #1f1c1c; 
+}
+
+.adaptive-learning .load-popup-content {
+  background-color: white;
+  color: #1f1c1c; 
+
+}
+
+.adaptive-learning .portfolio-details-title {
+  border-bottom: 1px solid var(--primary-yellow);
+}
+
+.adaptive-learning .portfolio-details-title h2 {
+  color: #1f1c1c;
+}
+
+.adaptive-learning .portfolio-details-info .tags {
+  display: flex;
+  flex-direction: column;
+}
+.adaptive-learning .portfolio-details-info .tags span:first-child {
+  color: #000;
+  opacity: 0.2;
+}
+.adaptive-learning .portfolio-details-info .tags span {
+  color: #1f1c1c; 
+  font-weight: normal;
+}
+.adaptive-learning .portfolio-details-media {
+  background-color: #D8D8D8;
+}
 
 
 /* ==========================================================================
