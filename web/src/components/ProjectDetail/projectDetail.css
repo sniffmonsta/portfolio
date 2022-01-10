@@ -1,0 +1,47 @@
+.projectDetail{
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  padding: 50px;
+  height: 100%;
+  /* align-content: space-between; */
+  background: white;
+  min-width: 240px;
+  align-content: flex-start;
+}
+
+.detailLogoHolder{
+  flex-shrink: 1;
+}
+
+.detailLogo{
+  width: 100%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.detail-title{
+  text-align: left;
+  font: normal normal bold 20px/27px Futura;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 40px;
+}
+
+.detail-text{
+  text-align: left;
+  font: normal normal normal 14px/25px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+.team-member{
+  margin-bottom: 10px;
+}

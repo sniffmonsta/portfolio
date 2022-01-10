@@ -1,11 +1,18 @@
 import React from "react"
 import Layout from "../../components/Layout"
 import BreadCrumb from "../../components/BreadCrumb"
+import ProjectDetail from "../../components/ProjectDetail"
 import './innovation-dash.css'
 
 export default function Play() {
   return (
-    <Layout>
+    <Layout detail={{
+      name: 'Innovation Dashboard',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      team: ['Snigdha Narayan','Anshumala Srivastava'],
+      role: 'Lead UX Designer',
+      duration: '4 weeks'
+    }}>
       <BreadCrumb links={[
         {
           to: '/work',
