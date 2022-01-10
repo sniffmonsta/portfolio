@@ -61,8 +61,10 @@ export default function Play() {
       </div>
 
       <div className="id-how-might-we">
-        <p className="id-how-might-we-left">How might we?</p>
-        <p className="id-how-might-we-right">Create a system that helps a manager track everything from prelaunch to post launch. Identify problem areas and take quick actions.</p>
+        <div className="id-how-might-we-content">
+          <p className="id-how-might-we-left">How might we?</p>
+          <p className="id-how-might-we-right">Create a system that helps a manager track everything from prelaunch to post launch. Identify problem areas and take quick actions.</p>
+        </div>
       </div>
 
       <div className="id-challenges">

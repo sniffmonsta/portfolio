@@ -50,6 +50,7 @@
   display: flex;
   align-self: center;
   margin-top: 80px;
+  max-width: 1100px;
   /* background: chartreuse; */
 }
 
@@ -92,7 +93,7 @@
 
 .id-immersions{
   margin-top: 80px;
-  max-width: 1000px;
+  max-width: 1100px;
   align-self: center;
 }
 
@@ -151,12 +152,17 @@
 }
 
 .id-how-might-we{
-  display: flex;
   background: #000000;
-  padding: 60px 80px 60px 40px;
+  display: flex;
   justify-content: center;
+}
+
+.id-how-might-we-content{
+  max-width: 1100px;
+  padding: 60px 80px 60px 40px;
+  display: flex;
+  align-self: center;
   align-items: center;
-  margin-top: 60px;
 }
 
 .id-how-might-we-left{
@@ -180,6 +186,8 @@
 
 .id-challenges{
   margin-top: 60px;
+  max-width: 1100px;
+  align-self: center;
 }
 
 .id-challenges-list{
@@ -218,7 +226,8 @@
 
 .id-insights{
   margin-top: 60px;
-  max-width: 1300px;
+  max-width: 1100px;
+  align-self: center;
 }
 
 .id-insights-content{
@@ -258,6 +267,8 @@
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
+  max-width: 1100px;
+  align-self: center;
 
 }
 
@@ -288,6 +299,8 @@
 
 .id-wireframes{
   margin-top: 80px;
+  align-self: center;
+  max-width: 1100px;
   align-self: center;
 }
 
@@ -335,10 +348,14 @@
 
 .id-product{
   margin: 60px 80px;
+  max-width: 1100px;
+  align-self: center;
 }
 
 .id-ui{
   margin-top: 40px;
+  max-width: 1100px;
+  align-self: center;
 }
 
 .id-ui-text{
@@ -357,6 +374,9 @@
 .id-solution{
   margin-top: 60px;
   display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  align-self: center;
 }
 
 .id-solution-quote{
@@ -371,6 +391,7 @@
   letter-spacing: 3.6px;
   color: #000000;
   width: 900px;
+  margin: 0 100px;
   align-self: center;
   z-index: 2;
 }
@@ -378,8 +399,8 @@
 .id-solution-img{
   height: 104px;
   position: absolute;
-  left: 390px;
-  top: -12px;
+  left: 490px;
+  top: -10px;
   z-index: 0;
 }
 
@@ -390,7 +411,8 @@
 
 .id-solution-content{
   margin-top: 80px;
-  max-width: 1300px;
+  max-width: 1100px;
+  align-self: center;
   display: flex;
   padding: 0 40px;
   justify-content: space-between;
