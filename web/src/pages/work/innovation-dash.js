@@ -4,6 +4,21 @@ import BreadCrumb from "../../components/BreadCrumb"
 import ProjectDetail from "../../components/ProjectDetail"
 import './innovation-dash.css'
 
+import p2 from '../../../static/projects/p2.png'
+import bodybath from '../../../static/projects/p2/bodybath.png'
+import hygiene from '../../../static/projects/p2/hygiene.png'
+import food from '../../../static/projects/p2/food.png'
+import beauty from '../../../static/projects/p2/beauty.png'
+import immersionsLeft from '../../../static/projects/p2/immersions-left.png'
+import immersionsRight from '../../../static/projects/p2/immersions-right.png'
+import insightsRight from '../../../static/projects/p2/insights-right.png'
+import wireframes from '../../../static/projects/p2/wireframes.png'
+import product from '../../../static/projects/p2/product.png'
+import ui from '../../../static/projects/p2/ui.png'
+import solutionHighlight from '../../../static/projects/p2/solutionHighlight.png'
+import monsters from '../../../static/projects/p2/monsters.png'
+import dashboard from '../../../static/projects/p2/dashboard.png'
+
 export default function Play() {
   return (
     <Layout detail={{
@@ -24,7 +39,7 @@ export default function Play() {
         }
       ]} />
       <div className="id-header">
-        <img src='../projects/p2.png' className='id-headerImage'/>
+        <img src={p2} className='id-headerImage'/>
       </div>
       <div className="id-intro">
         <p className="id-introTitle">The Need</p>
@@ -33,19 +48,19 @@ export default function Play() {
       
       <div className="id-innovations">
         <div className="id-innovation">
-          <img src='../projects/p2/bodybath.png' className='id-innovationImage'/>
+          <img src={bodybath} className='id-innovationImage'/>
           <p className="id-innovationName">Body & Bath</p>
         </div>
         <div className="id-innovation">
-          <img src='../projects/p2/hygiene.png' className='id-innovationImage'/>
+          <img src={hygiene} className='id-innovationImage'/>
           <p className="id-innovationName">Hygiene</p>
         </div>
         <div className="id-innovation">
-          <img src='../projects/p2/food.png' className='id-innovationImage'/>
+          <img src={food} className='id-innovationImage'/>
           <p className="id-innovationName">Food</p>
         </div>
         <div className="id-innovation">
-          <img src='../projects/p2/beauty.png' className='id-innovationImage'/>
+          <img src={beauty} className='id-innovationImage'/>
           <p className="id-innovationName">Beauty</p>
         </div>
       </div>
@@ -56,13 +71,13 @@ export default function Play() {
         <p className="id-mini-title">Immersions</p>
         <div className="id-immersions-content">
           <div className="id-immersions-left">
-            <img src='../projects/p2/immersions-left.png' className='id-immersions-left-img'/>
+            <img src={immersionsLeft} className='id-immersions-left-img'/>
           </div>     
           <div className="id-immersions-right">
             <p className="id-immersions-right-title">Who launches an innovation and what does it take?</p>
             <p className="id-immersions-right-p1">Yes, I had a whole lot of questions. We just dived right into it and spoke to over 14 brand managers and 2 category heads</p>
             <p className="id-immersions-right-p2">IT TAKES A LOT OF</p>
-            <img src='../projects/p2/immersions-right.png' className='id-immersions-right-img'/>
+            <img src={immersionsRight} className='id-immersions-right-img'/>
           </div>
         </div>
       </div>
@@ -107,7 +122,7 @@ export default function Play() {
             <p>I spoke to brand managers who catered to a wide range of products and everybody had a unique requirement that only probably fit their use case. It was a challenge to include them all onto an all inclusive dashboard that works for everybody.</p>
           </div>
           <div className="id-insights-right">
-            <img src='../projects/p2/insights-right.png'/>
+            <img src={insightsRight}/>
           </div>
         </div>
       </div>
@@ -147,7 +162,7 @@ export default function Play() {
         <p className="id-mini-title">Wireframes</p>
         <div className="id-wireframes-content">
           <div className="id-wireframes-left">
-            <img src='../projects/p2/wireframes.png' className='id-wireframes-left-img'/>
+            <img src={wireframes} className='id-wireframes-left-img'/>
           </div>     
           <div className="id-wireframes-right">
             <p className="id-wireframes-right-title">V4_Finalfile.xd</p>
@@ -158,20 +173,20 @@ export default function Play() {
       </div>
 
       <div className="id-product">
-        <img src='../projects/p2/product.png' className='id-product-img'/>
+        <img src={product} className='id-product-img'/>
       </div>
 
 
       <div className="id-ui">
         <p className="id-mini-title">User Interface</p>
         <p className="id-ui-text">The tool on which the dashboard was developed is called PowerBI. It has it own limitation in terms of custom design elements so I created a system of visual design which was sleek, yet aesthetic. The major challenge here was to highlight the important data points and there were many of them.</p>
-        <img src='../projects/p2/ui.png' className='id-ui-img'/>
+        <img src={ui} className='id-ui-img'/>
       </div>
 
       <div className="id-solution">
         <p className="id-mini-title">SOLUTION STATEMENT</p>
         <div className="id-solution-quote">
-          <img src='../projects/p2/solutionHighlight.png' className='id-solution-img'/>
+          <img src={solutionHighlight} className='id-solution-img'/>
           <p className="id-solution-text">An effective <p className="id-solution-highlight">warning system</p> that enables you to track multiple launches.</p>
         </div>
       </div>
@@ -182,12 +197,12 @@ export default function Play() {
             <p className="id-solution-left-text">Then designed a system that would display useful insights based on the past data trends. So when a user logs into the system he/she can see a future forecast of how their sales is likely to perform based on the metrics they have chosen. It can also recommend an action for the user to perform. This system of identification is termed as the red, amber and green status system.</p>
           </div>
           <div className="id-solution-right">
-            <img src='../projects/p2/monsters.png'/>
+            <img src={monsters}/>
           </div>
       </div>
 
       <div className="id-dashboard">
-        <img src='../projects/p2/dashboard.png' className='id-dashboard-img'/>
+        <img src={dashboard} className='id-dashboard-img'/>
       </div>
 
     </Layout>

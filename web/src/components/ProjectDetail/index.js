@@ -18,7 +18,6 @@ export default function ProjectDetail(props) {
                 <p className='detail-text'>{desc}</p>
                 <p className='detail-title'>Team</p>
                 <p className='detail-text'>{team.map(member => {
-                    console.log(member)
                     return <p className='team-member'>{member}</p>;
                 })}</p>
                 <p className='detail-title'>Role</p>

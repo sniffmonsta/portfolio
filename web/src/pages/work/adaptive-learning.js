@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../../components/Layout"
 import BreadCrumb from "../../components/BreadCrumb"
 import './adaptive-learning.css'
+import p1 from '../../../static/projects/p1.png'
 
 export default function Play() {
   return (
@@ -24,7 +25,7 @@ export default function Play() {
       ]} />
 
       <div className="al-header">
-        <img src='../projects/p1.png' className='al-headerImage'/>
+        <img src={p1} className='al-headerImage'/>
       </div>
       <div className="al-intro">
         <p className="al-introTitle">The Need</p>
