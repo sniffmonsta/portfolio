@@ -5,7 +5,13 @@ import './dot.css'
 
 export default function Play() {
   return (
-    <Layout>
+    <Layout detail={{
+      name: 'DoT',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      team: ['Snigdha Narayan','Mukesh Manda'],
+      role: 'Lead UX Designer',
+      duration: '2 Months'
+    }}>
       <BreadCrumb links={[
         {
           to: '/work',

@@ -5,7 +5,13 @@ import './adaptive-learning.css'
 
 export default function Play() {
   return (
-    <Layout>
+    <Layout detail={{
+      name: 'Adaptive Learning',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      team: ['Snigdha Narayan','Aishwarya Shetty', 'Anish Patel'],
+      role: 'Lead UX Designer',
+      duration: '12 Months'
+    }}>
       <BreadCrumb links={[
         {
           to: '/work',
