@@ -1,5 +1,5 @@
 .projectLink{
-  width: 200px;
+  width: 220px;
   margin: 0 40px 60px 0;
   text-decoration: none;
   color: black;
@@ -18,8 +18,8 @@
 }
 .p1,.p2,.p3,.p4{
   padding: 10px 20px;
-  width: 200px;
-  height: 270px;
+  width: 220px;
+  height: 280px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,11 +29,18 @@
   max-width: 70%;
 }
 .projectTitle{
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: bold;
+  margin-top: 24px;
+  text-align: left;
+  font: normal normal bold 22px/36px Futura;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
 }
 .projectDescription{
   margin-top: 10px;
-  font-size: 16px;
+  text-align: left;
+  font: normal normal normal 20px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
 }
