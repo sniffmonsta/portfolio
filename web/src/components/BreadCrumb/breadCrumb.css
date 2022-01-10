@@ -1,0 +1,30 @@
+.breadCrumbsContainer{
+  padding: 10px;
+  padding-top: 12px;
+  background: #DCFA34;
+  display: inline;
+  margin-left: 50px;
+  align-self: flex-start;
+}
+
+.breadCrumb{
+  /* display: block; */
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 20px;
+  position: relative;
+  display: inline;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: left;
+  font: normal normal medium 20px/50px Roboto Mono;
+  letter-spacing: 2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.breadCrumb::before{
+  content: '/';
+  margin-right: 2px;
+}
+

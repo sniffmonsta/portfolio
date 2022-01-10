@@ -1,0 +1,23 @@
+.layout {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+.sideBarContainer{
+  width: 240px;
+}
+
+.contentHolder{
+  flex-grow: 10;
+  /* margin-left: 240px; */
+  min-height: 100%;
+  background-image: url(../../../static/bg.png);
+  background-repeat: repeat;
+  border-left: 1px solid #F7F7F7;
+  padding-top: 100px;
+  padding-left: 0px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,39 @@
+.projectLink{
+  width: 200px;
+  margin: 0 40px 60px 0;
+  text-decoration: none;
+  color: black;
+}
+.p1{
+  background: #FFBC26;
+}
+.p2{
+  background: #5086FF;
+}
+.p3{
+  background: #A17EFF;
+}
+.p4{
+  background: #6AE0EA;
+}
+.p1,.p2,.p3,.p4{
+  padding: 10px 20px;
+  width: 200px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectImage{
+  max-height: 80%;
+  max-width: 70%;
+}
+.projectTitle{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.projectDescription{
+  margin-top: 10px;
+  font-size: 16px;
+}
