@@ -34,8 +34,10 @@ export default function Play() {
 
 
       <div className="al-how-might-we">
-        <p className="al-how-might-we-left">How might we?</p>
-        <p className="al-how-might-we-right">Create a self directed enviroment that helps the student learn and understand a particular subject in an effortless manner.Have an equal method gaining maximum knowledge for both an average student and a smart student.</p>
+        <div className="al-how-might-we-content">
+          <p className="al-how-might-we-left">How might we?</p>
+          <p className="al-how-might-we-right">Create a self directed enviroment that helps the student learn and understand a particular subject in an effortless manner.Have an equal method gaining maximum knowledge for both an average student and a smart student.</p>
+        </div>
       </div>
 
       <div className="al-keyfindings">

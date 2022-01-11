@@ -64,13 +64,19 @@
 .al-how-might-we{
     display: flex;
     background: #000000;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.al-how-might-we-content{
+    max-width: 1100px;
+    display: flex;
     padding: 60px 80px 60px 40px;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-  }
-  
-  .al-how-might-we-left{
+}
+
+.al-how-might-we-left{
     text-align: left;
     font: normal normal bold 36px/48px Futura;
     letter-spacing: 0px;
@@ -78,28 +84,30 @@
     opacity: 1;
     /* min-width: 100px; */
     margin-right: 80px;
-  }
-  
-  .al-how-might-we-right{
+}
+
+.al-how-might-we-right{
     text-align: left;
     font: normal normal normal 20px/40px Open Sans;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
     flex: 1;
-  }
-  
-  .al-keyfindings{
+}
+
+.al-keyfindings{
     margin-top: 60px;
-  }
-  
-  .al-keyfindings-list{
+    max-width: 1100px;
+    align-self: center;
+}
+
+.al-keyfindings-list{
     margin: 20px 20px;
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .al-keyfinding{
+}
+
+.al-keyfinding{
     background: #FEBC2C 0% 0% no-repeat padding-box;
     opacity: 1;
     height: 300px;
@@ -109,20 +117,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  .al-keyfinding-number{
+}
+
+.al-keyfinding-number{
     text-align: left;
     font: normal normal normal 30px/40px Open Sans;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
-  }
-  
-  .al-keyfinding-text{
+}
+
+.al-keyfinding-text{
     text-align: left;
     font: normal normal 600 20px/40px Open Sans;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
-  }
+}
