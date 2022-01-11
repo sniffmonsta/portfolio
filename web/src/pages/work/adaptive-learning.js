@@ -27,10 +27,12 @@ export default function Play() {
       <div className="al-header">
         <img src={p1} className='al-headerImage'/>
       </div>
+
       <div className="al-intro">
         <p className="al-introTitle">The Need</p>
         <p className="al-introText">A certain edu-tech company that has been delivering learning management systems for K-12 schools nation wide for over 10+ years, realised that creating improved content for students did not improve the rate of learning as the traditional model follows a ‘take it or leave it’ philosophy, which considered the student group to collectively have similar learning styles, levels of competence, learning needs and motivation levels.</p>
       </div>
+
       <div className="al-challenges">
         <div className="al-mini-title">CHALLENGE</div>
         <div className="al-channenges-content">
@@ -80,6 +82,12 @@ export default function Play() {
           </div>
         </div>
       </div>
+
+      <div className="al-target-audience">
+        <div className="al-mini-title">TARGET AUDIENCE</div>
+        <p className="al-text-center">As the product is a little heavy on computer interactions, we decided to narrow down and start with students from <p className="al-bold">6th to 12th standard.</p> As they are well versed with computers. As well as <p className="al-bold">teachers.</p></p>
+      </div>
+
     </Layout>
   )
 }
