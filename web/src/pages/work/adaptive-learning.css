@@ -59,7 +59,49 @@
     opacity: 1;
     margin-left: 40px;
 }
+.al-subtitle-center{
+    text-align: center;
+    font: italic normal 600 20px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #FEBC2C;
+    opacity: 1;
+    margin: 0 40px;
+    max-width: 1000px;
+    align-self: center;
+}
 
+.al-challenges{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.al-channenges-content{
+    margin: 40px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    align-self: center;
+}
+.al-challenge{
+    margin: 0 40px;
+    max-width: 480px;
+}
+.al-challenge-title{
+    text-align: left;
+    font: normal normal bold 30px/40px Futura;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.al-challenge-text{
+    text-align: left;
+    font: normal normal normal 20px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;  
+}
 
 .al-how-might-we{
     display: flex;

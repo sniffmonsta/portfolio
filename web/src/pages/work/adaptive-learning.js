@@ -31,6 +31,20 @@ export default function Play() {
         <p className="al-introTitle">The Need</p>
         <p className="al-introText">A certain edu-tech company that has been delivering learning management systems for K-12 schools nation wide for over 10+ years, realised that creating improved content for students did not improve the rate of learning as the traditional model follows a ‘take it or leave it’ philosophy, which considered the student group to collectively have similar learning styles, levels of competence, learning needs and motivation levels.</p>
       </div>
+      <div className="al-challenges">
+        <div className="al-mini-title">CHALLENGE</div>
+        <div className="al-channenges-content">
+          <div className="al-challenge">
+            <p className="al-challenge-title">Student</p>
+            <p className="al-challenge-text">They are unable to keep up with the school curriculum. Often forgetting what has been taught to them in the beginning of the year. Association of topics within chapters becomes difficult.</p>
+          </div>
+          <div className="al-challenge">
+            <p className="al-challenge-title">Teacher</p>
+            <p className="al-challenge-text">Each student has a different learning style and with 45min allocated to teaching a classroom filled with 30-40 students it is hard to track progress/ learning needs of individual students.</p>
+          </div>
+        </div>
+        <p className="al-subtitle-center">We scheduled visits to nearby schools and interacted with the teacher and students. We also had the opportunity to sit in one of the classes. That made us pondered further on ..</p>
+      </div>
 
 
       <div className="al-how-might-we">
