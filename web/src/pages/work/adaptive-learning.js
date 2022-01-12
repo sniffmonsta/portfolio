@@ -88,6 +88,11 @@ export default function Play() {
         <p className="al-text-center">As the product is a little heavy on computer interactions, we decided to narrow down and start with students from <p className="al-bold">6th to 12th standard.</p> As they are well versed with computers. As well as <p className="al-bold">teachers.</p></p>
       </div>
 
+      <div className="al-persona">
+        <div className="al-mini-title">PERSONA</div>
+        <p className="al-subtitle">The class comprised of 40 students, after having interacted with each of them for a brief span we classified them into groups</p>
+      </div>
+
     </Layout>
   )
 }
