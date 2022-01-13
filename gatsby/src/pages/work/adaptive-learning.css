@@ -253,73 +253,63 @@
     color: #000000;
 }
 
-/* 
-      <div className="al-persona">
-        <div className="al-mini-title">PERSONA</div>
-        <p className="al-subtitle">The class comprised of 40 students, after having interacted with each of them for a brief span we classified them into groups</p>
-        <div className="al-persona-content">
-          <div className="al-persona-left">
-            <p className="al-text">There are 4 possible cases considering two important factors that is</p>
-            <div className="al-persona-type">
-              <p className="al-persona-type-number">01/</p>
-              <p className="al-persona-type-text">Interest in learning</p>
-            </div>
-            <div className="al-persona-type">
-              <p className="al-persona-type-number">02/</p>
-              <p className="al-persona-type-text">Abiding by the educational system followed by schools and colleges.</p>
-            </div>
-          </div>
-          <div className="al-persona-right">
-            <img src={persona} className='al-persona-image'/>
-          </div>
-        </div>
-      </div>
+.al-insights{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    align-self: center;
+}
+.al-insights-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.al-insight{
+    display: flex;
+    flex-direction: column;
+    flex: 0.33;
+    min-width: 367px;
+}
+.al-insight-top{
+    margin: 20px 0;
+    /* flex: 1; */
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.al-insight-top-image{
+    height: 160px;
+}
+.al-insight-top-text{
+    text-align: left;
+    font: normal normal bold 30px/40px Futura;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.al-insight-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.al-insight-bottom-image{
+    height: 100px;
+}
+.al-insight-bottom-text{
+    text-align: left;
+    font: normal normal normal 16px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #FF0000;
+    opacity: 1;
+}
 
-      <div className="al-insights">
-        <div className="al-mini-title">INSIGHTS</div>
-        <p className="al-subtitle">Once there persona was in place we looked into the life of a student and their methods of learning</p>
-        <div className="al-insights-content">
-          <div className="al-insight">
-            <div className="al-insight-top">
-              <img src={classroom} className='al-insight-top-image'/>
-              <p className="al-insight-top-text">Classroom</p>
-            </div>
-            <div className="al-insight-bottom">
-              <img src={frog} className='al-insight-bottom-image'/>
-              <p className="al-insight-bottom-text">
-              - Can’t focus for 30-40 min straight <br/><br/>
-              - One size does not fit all
-              </p>
-            </div>
-          </div>
-          <div className="al-insight">
-            <div className="al-insight-top">
-              <img src={homework} className='al-insight-top-image'/>
-              <p className="al-insight-top-text">Home work</p>
-            </div>
-            <div className="al-insight-bottom">
-              <img src={fox} className='al-insight-bottom-image'/>
-              <p className="al-insight-bottom-text">
-              - Boring <br/><br/>
-              - Not personalized
-              </p>
-            </div>
-          </div>
-          <div className="al-insight">
-            <div className="al-insight-top">
-              <img src={tests} className='al-insight-top-image'/>
-              <p className="al-insight-top-text">Tests</p>
-            </div>
-            <div className="al-insight-bottom">
-              <img src={cat} className='al-insight-bottom-image'/>
-              <p className="al-insight-bottom-text">
-              - Scary <br/><br/>
-              - Requires Prep time
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+/* 
+
 
       <div className="al-conceptualization">
         <div className="al-mini-title">CONCEPTULIZATION</div>

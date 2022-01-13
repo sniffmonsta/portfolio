@@ -128,7 +128,7 @@ export default function Play() {
 
       <div className="al-insights">
         <div className="al-mini-title">INSIGHTS</div>
-        <p className="al-subtitle">Once there persona was in place we looked into the life of a student and their methods of learning</p>
+        <p className="al-subtitle">Once there persona was in place we looked into the life of a student and their methods of learning.&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <div className="al-insights-content">
           <div className="al-insight">
             <div className="al-insight-top">
@@ -138,7 +138,7 @@ export default function Play() {
             <div className="al-insight-bottom">
               <img src={frog} className='al-insight-bottom-image'/>
               <p className="al-insight-bottom-text">
-              - Can’t focus for 30-40 min straight <br/><br/>
+              - Can’t focus for 30-40 min straight <br/>
               - One size does not fit all
               </p>
             </div>
@@ -151,7 +151,7 @@ export default function Play() {
             <div className="al-insight-bottom">
               <img src={fox} className='al-insight-bottom-image'/>
               <p className="al-insight-bottom-text">
-              - Boring <br/><br/>
+              - Boring <br/>
               - Not personalized
               </p>
             </div>
@@ -164,7 +164,7 @@ export default function Play() {
             <div className="al-insight-bottom">
               <img src={cat} className='al-insight-bottom-image'/>
               <p className="al-insight-bottom-text">
-              - Scary <br/><br/>
+              - Scary <br/>
               - Requires Prep time
               </p>
             </div>
