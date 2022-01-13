@@ -406,16 +406,49 @@
     margin-top: 10px;
 }
 
+.al-solution-statement{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    align-self: center;
+}
+
+.al-solution-statement-content{
+    width: 700px;
+    align-self: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.al-solution-statement-content > p{
+    text-align: left;
+    font: italic normal 600 60px/80px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    z-index: 2;
+    position: relative;
+}
+
+.al-solution-circle{
+    position: absolute;
+    height: 104px;
+    left:-10px;
+    top: -12px;
+    z-index: 0;
+}
+
+.al-solution-line{
+    position: absolute;
+    width: 204px;
+    left:420px;
+    top: 148px;
+    z-index: 0;
+}
 /* 
 
-
-
-      <div className="al-solution-statement">
-        <div className="al-mini-title">SOLUTION STATEMENT</div>
-        <div className="al-solution-statement-content">
-          <p>Gamified learning experience that adapts to the students pace.</p>
-        </div>
-      </div>
 
       <div className="al-wireframes">
         <div className="al-mini-title">WIREFRAMES</div>

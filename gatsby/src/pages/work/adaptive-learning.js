@@ -218,6 +218,8 @@ export default function Play() {
       <div className="al-solution-statement">
         <div className="al-mini-title">SOLUTION STATEMENT</div>
         <div className="al-solution-statement-content">
+          <img src={circle} className="al-solution-circle"/>
+          <img src={line} className="al-solution-line"/>
           <p>Gamified learning experience that adapts to the students pace.</p>
         </div>
       </div>
