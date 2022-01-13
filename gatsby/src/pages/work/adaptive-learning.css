@@ -38,6 +38,9 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+    max-width: 1100px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 
@@ -91,6 +94,8 @@
     margin-top: 100px;
     display: flex;
     flex-direction: column;
+    max-width: 1100px;
+    align-self: center;
 }
 
 
@@ -447,47 +452,48 @@
     top: 148px;
     z-index: 0;
 }
-/* 
 
-
-      <div className="al-wireframes">
-        <div className="al-mini-title">WIREFRAMES</div>
-        <p className="al-subtitle">
-          We started ideating on game concept models that would capture the following attributes mentioned below.
-        </p>
-        <div className="al-wireframes-content">
-          <p className="al-wireframe-title">Explore</p>
-          <div className="al-wireframe">
-            <img src={s1} />
-            <p>We gamified the process of exploring. Concepts enable the students to take any path they wished to take to learn. So each student can have a different and unique path.</p>
-          </div>
-          <p className="al-wireframe-title">Learn</p>
-          <div className="al-wireframe">
-            <img src={s2} />
-            <p>
-              We also added promts along the path for the students to make sense of the relationship between each concept as the chapters progressed.
-              <br/><br/>
-              There are default base concepts for each chapter. The student can choose to start from any of these starting points. Also, once they click on the concept/chapter they have access to all the learning material needed.
-            </p>
-          </div>
-          <p className="al-wireframe-title">Self-assess</p>
-          <div className="al-wireframe">
-            <img src={s3} />
-            <p>
-              A chapter level test would assess the student’s knowledge on all the concepts within the chapter. Similar, the concept level test was more specific and less time taking. The student can see on an average what position he/she scored. There is no pass/fail system during testing.
-              <br/><br/>
-              The test can be retaken and it will adjust the difficulty based on the students knowledge.
-            </p>
-          </div>
-          <p className="al-wireframe-title">Reward</p>
-          <div className="al-wireframe">
-            <img src={s4} />
-            <p>
-              We researched a lot and thought through a lot of reward systems including the point/coin based reward systems. Later settled on something that could be less competitive but yet gain a students sense of belonging.
-              <br/><br/>
-              We went ahead to incorporate avatars/badges that a student could unlock during the process. Which would distinguish them and create a unique identity amongst their peers.
-            </p>
-          </div>
-        </div>
-      </div>
-*/
+.al-wireframes{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    align-self: center;
+}
+.al-wireframe-title{
+    text-align: left;
+    font: normal normal bold 30px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 60px 40px 20px 40px;
+}
+.al-wireframe{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 40px 0px 40px;
+    width: 100%;
+    align-items: center;
+}
+.al-wireframe > p{
+    text-align: left;
+    font: normal normal normal 20px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    max-width: 320px;
+    margin-left: 0;
+    margin-right: 40px;
+}
+.al-wireframe > p:nth-child(2n){
+    margin-left: 40px;
+    margin-right: 0px;
+}
+.al-wireframe-image-container{
+    flex-grow: 1;
+}
+.al-wireframe-image-container > img{
+    width: 100%;
+    max-height: 100%;
+}

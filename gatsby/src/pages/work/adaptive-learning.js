@@ -232,21 +232,27 @@ export default function Play() {
         <div className="al-wireframes-content">
           <p className="al-wireframe-title">Explore</p>
           <div className="al-wireframe">
-            <img src={s1} />
+            <div className="al-wireframe-image-container">
+              <img src={s1} />
+            </div>
             <p>We gamified the process of exploring. Concepts enable the students to take any path they wished to take to learn. So each student can have a different and unique path.</p>
           </div>
           <p className="al-wireframe-title">Learn</p>
           <div className="al-wireframe">
-            <img src={s2} />
             <p>
               We also added promts along the path for the students to make sense of the relationship between each concept as the chapters progressed.
               <br/><br/>
               There are default base concepts for each chapter. The student can choose to start from any of these starting points. Also, once they click on the concept/chapter they have access to all the learning material needed.
             </p>
+            <div className="al-wireframe-image-container">
+              <img src={s2} />
+            </div>
           </div>
           <p className="al-wireframe-title">Self-assess</p>
           <div className="al-wireframe">
-            <img src={s3} />
+            <div className="al-wireframe-image-container">
+              <img src={s3} />
+            </div>
             <p>
               A chapter level test would assess the student’s knowledge on all the concepts within the chapter. Similar, the concept level test was more specific and less time taking. The student can see on an average what position he/she scored. There is no pass/fail system during testing.
               <br/><br/>
@@ -255,12 +261,14 @@ export default function Play() {
           </div>
           <p className="al-wireframe-title">Reward</p>
           <div className="al-wireframe">
-            <img src={s4} />
             <p>
               We researched a lot and thought through a lot of reward systems including the point/coin based reward systems. Later settled on something that could be less competitive but yet gain a students sense of belonging.
               <br/><br/>
               We went ahead to incorporate avatars/badges that a student could unlock during the process. Which would distinguish them and create a unique identity amongst their peers.
             </p>
+            <div className="al-wireframe-image-container">
+              <img src={s4} />
+            </div>
           </div>
         </div>
       </div>
