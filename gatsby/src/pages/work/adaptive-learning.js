@@ -207,7 +207,7 @@ export default function Play() {
             <p className="al-testtaking-block-text">This test is designed to be taken at any point of the learning journey to assess the current knowledge of the student.</p>
           </div>
           <div className="al-testtaking-block">
-            <img src={threeCircles} className="al-testtaking-block-image"/>
+            <img src={threeCircles} className="al-testtaking-block-image-big"/>
             <p className="al-testtaking-block-title">Knowledge Space</p>
             <p className="al-testtaking-block-text">If the student feels too confident and is capable of taking a test in an advance chapter. He/she should be able to challenge the system.</p>
           </div>

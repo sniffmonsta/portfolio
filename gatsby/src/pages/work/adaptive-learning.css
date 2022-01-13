@@ -355,31 +355,59 @@
     margin-top: 5px;
 }
 
+.al-testtaking{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    align-self: center;
+}
+
+.al-testtaking-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.al-testtaking-block{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.al-testtaking-block-image{
+    height: 100px;
+}
+.al-testtaking-block-image-big{
+    height: 140px;
+    margin-top: -40px;
+}
+
+.al-testtaking-block-title{
+    text-align: left;
+    font: normal normal bold 16px/24px Futura;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 40px;
+}
+
+.al-testtaking-block-text{
+    text-align: justify;
+    font: normal normal normal 20px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    height: 200px;
+    margin-top: 10px;
+}
+
 /* 
 
-
-
-      <div className="al-testtaking">
-        <div className="al-mini-title">TEST TAKING</div>
-        <p className="al-subtitle">Imagine the concept of mock tests in competitive exams. They re-assure that you can take tests right before the actual test, right? Similar to that we built a test taking module which will ensure the student understands and validates their knowledge at all levels</p>
-        <div className="al-testtaking-content">
-          <div className="al-testtaking-block">
-            <img src={oneCircle} className="al-testtaking-block-image"/>
-            <p className="al-testtaking-block-title">Item Response</p>
-            <p className="al-testtaking-block-text">A student can test themselves in a concept or a chapter right after they finish their class.</p>
-          </div>
-          <div className="al-testtaking-block">
-            <img src={twoCircles} className="al-testtaking-block-image"/>
-            <p className="al-testtaking-block-title">Knowledge Space</p>
-            <p className="al-testtaking-block-text">This test is designed to be taken at any point of the learning journey to assess the current knowledge of the student.</p>
-          </div>
-          <div className="al-testtaking-block">
-            <img src={threeCircles} className="al-testtaking-block-image"/>
-            <p className="al-testtaking-block-title">Knowledge Space</p>
-            <p className="al-testtaking-block-text">If the student feels too confident and is capable of taking a test in an advance chapter. He/she should be able to challenge the system.</p>
-          </div>
-        </div>
-      </div>
 
 
       <div className="al-solution-statement">
