@@ -1,6 +1,6 @@
 .projectLink{
-  width: 220px;
-  margin: 0 40px 60px 0;
+  width: 260px;
+  margin: 0 80px 60px 0;
   text-decoration: none;
   color: black;
 }
@@ -18,8 +18,8 @@
 }
 .p1,.p2,.p3,.p4{
   padding: 10px 20px;
-  width: 220px;
-  height: 280px;
+  width: 260px;
+  height: 340px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,6 +40,20 @@
   margin-top: 10px;
   text-align: left;
   font: normal normal normal 20px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  height: 120px;
+}
+
+/* .projectTags{
+} */
+
+.projectTag{
+  display: inline;
+  margin-right: 14px;
+  text-align: left;
+  font: normal normal bold 18px/40px Open Sans;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
