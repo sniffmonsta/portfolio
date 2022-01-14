@@ -1,0 +1,125 @@
+.d-header{
+    background: #A17EFF;
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.d-headerImage{
+    height: 200px;
+}
+
+.d-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: center;
+    flex-direction: row;
+    max-width: 1100px;
+    margin-top: 120px;
+    max-width: 1100px;
+    /* background: chartreuse; */
+}
+
+.d-intro-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    margin-left: -30px;
+}
+
+.d-intro-left-img{
+    max-height: 300px;
+    margin-left: -30px;
+}
+
+.d-intro-right-img{
+    max-height: 200px;
+    margin-top: -60px;
+}
+
+.d-introTitle{
+    text-align: left;
+    font: normal normal 900 20px/27px Avenir;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.d-introText{
+    margin-top: 10px;
+    text-align: center;
+    font: normal normal normal 20px/30px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    max-width: 1100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.d-mini-title{
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    font: normal normal 900 20px/27px Avenir;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.d-subtitle{
+    text-align: left;
+    font: italic normal 600 20px/30px Open Sans;
+    letter-spacing: 0px;
+    color: #F87E03;;
+    opacity: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.d-subtitle-center{
+    text-align: center;
+    font: italic normal 600 20px/30px Open Sans;
+    letter-spacing: 0px;
+    color: #F87E03;;
+    opacity: 1;
+    margin: 0 40px;
+    max-width: 1000px;
+    align-self: center;
+}
+.d-text-center{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 30px 100px;
+    max-width: 900px;
+    align-self: center;
+}
+.d-bold{
+    display: inline;
+    font-weight: bold;
+}
+
+
+/* <div className="d-inro-container">
+<div className="d-intro-left">
+  <img src={blackBear} className="d-intro-right-left" />
+</div>
+<div className="d-intro">
+  <p className="d-introTitle">The Need</p>
+  <p className="d-introText">How often do we seek company to do things ? Ever wanted to go play badminton and had no-one who was up for it. This was a problem that me and my friend both faced.</p>
+</div>
+<div className="d-intro-right">
+  <img src={whiteBear} className="d-intro-right-img" />
+</div>
+</div> */
