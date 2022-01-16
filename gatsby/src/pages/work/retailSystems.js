@@ -1,12 +1,12 @@
 import React, {useEffect, createRef} from "react"
 import Layout from "../../components/Layout"
 import BreadCrumb from "../../components/BreadCrumb"
-import './krab-io.css'
+import './retailSystems.css'
 import lottie from 'lottie-web'
-import animation from '../../../static/dude_blue.json'
+import animation from '../../../static/dude_darkblue.json'
 
 
-export default function Krab() {
+export default function RetailSystems() {
   let animationContainer = createRef();
   useEffect(() => {
     const anim = lottie.loadAnimation({
@@ -27,8 +27,8 @@ export default function Krab() {
           text: 'Work'
         },
         {
-          to: '/work/krab-io',
-          text: 'Krab.io'
+          to: '/work/retailSystems',
+          text: 'Retail Systems'
         }
       ]} />
       <div className="comingSoon">
