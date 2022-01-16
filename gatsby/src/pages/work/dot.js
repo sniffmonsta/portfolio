@@ -15,6 +15,7 @@ import idea3 from '../../../static/projects/p3/idea2.png'
 import ui from '../../../static/projects/p3/ui.png'
 import storyboard from '../../../static/projects/p3/storyboard.png'
 import threeDoodles from '../../../static/projects/p3/threeDoodles.png'
+import line from '../../../static/projects/p3/line.png'
 
 export default function Play() {
   return (
@@ -167,7 +168,7 @@ export default function Play() {
       <div className="d-solution">
         <p className="d-mini-title">SOLUTION STATEMENT</p>
         <div className="d-solution-content">
-            <img src={whiteBear} className="d-solution-content-line" />
+            <img src={line} className="d-solution-content-line" />
             <p className="d-solution-content-text">
               It’s never too late to <p className="d-solution-content-highlight">socialise</p> or rekindle existing relationships.
             </p>
