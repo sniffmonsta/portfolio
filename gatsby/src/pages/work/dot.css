@@ -109,17 +109,3 @@
     display: inline;
     font-weight: bold;
 }
-
-
-/* <div className="d-inro-container">
-<div className="d-intro-left">
-  <img src={blackBear} className="d-intro-right-left" />
-</div>
-<div className="d-intro">
-  <p className="d-introTitle">The Need</p>
-  <p className="d-introText">How often do we seek company to do things ? Ever wanted to go play badminton and had no-one who was up for it. This was a problem that me and my friend both faced.</p>
-</div>
-<div className="d-intro-right">
-  <img src={whiteBear} className="d-intro-right-img" />
-</div>
-</div> */

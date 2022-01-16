@@ -5,6 +5,18 @@ import './dot.css'
 import p3 from '../../../static/projects/p3.png'
 import blackBear from '../../../static/projects/p3/blackBear.png'
 import whiteBear from '../../../static/projects/p3/whiteBear.png'
+import beKind from '../../../static/projects/p3/beKind.png'
+import classmates from '../../../static/projects/p3/classmates.png'
+import d_immersions from '../../../static/projects/p3/d_immersions.png'
+import d_survey from '../../../static/projects/p3/d_survey.png'
+import friends from '../../../static/projects/p3/friends.png'
+import gamer from '../../../static/projects/p3/gamer.png'
+import idea1 from '../../../static/projects/p3/idea1.png'
+import idea2 from '../../../static/projects/p3/idea2.png'
+import idea3 from '../../../static/projects/p3/idea2.png'
+import interface from '../../../static/projects/p3/interface.png'
+import storyboard from '../../../static/projects/p3/storyboard.png'
+import threeDoodles from '../../../static/projects/p3/threeDoodles.png'
 
 export default function Play() {
   return (
