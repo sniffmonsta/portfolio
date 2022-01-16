@@ -216,7 +216,6 @@
     max-width: 1100px;
     align-self: center;
     margin-top: 100px;
-    /* background: chocolate; */
     padding: 0 40px;
 }
 .d-concept-content{
@@ -225,14 +224,12 @@
 }
 .d-concept-left{
     flex: 0.2;
-    /* min-width: 200px; */
 }
 .d-concept-left-img{
     min-width: 100%;
 
 }
 .d-concept-center{
-    /* max-width: 600px; */
     flex: 0.4;
     margin-right: 10px;
     margin-left: 10px;
@@ -259,29 +256,14 @@
 .d-concept-right-img{
     min-width: 100%;
 }
+
+.d-storyboarding{
+    max-width: 1100px;
+    align-self: center;
+    margin-top: 100px;
+    padding: 0 40px;
+}
 /*
-
-
-
-      <div className="d-concept">
-        <p className="d-mini-title">CONCEPT</p>
-        <div className="d-concept-content">
-          <div className="d-concept-left">
-            <img src={beKind} className="d-concept-left-img" />
-          </div>
-          <div className="d-concept-center">
-            <p className="d-conceptTitle">What is social health?</p>
-            <p className="d-conceptText">
-              Social health can be defined as our ability to interact and form meaningful relationships with others. It also relates to how comfortably we can adapt in social situations. Social relationships have an impact on our mental health, physical health and mortality risk.
-              <br/><br/>
-              We began researching on ways to improve social health and they seem very simple at the first glance but they are actually very difficult to practise in daily life. We began brainstorming ideas to solve this.
-            </p>
-          </div>
-          <div className="d-concept-right">
-            <img src={threeDoodles} className="d-concept-right-img" />
-          </div>
-        </div>
-      </div>
 
 
       <div className="d-storyboarding">
