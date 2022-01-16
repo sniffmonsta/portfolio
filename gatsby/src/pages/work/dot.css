@@ -212,16 +212,55 @@
     flex: 1;
 }
 
+.d-concept{
+    max-width: 1100px;
+    align-self: center;
+    margin-top: 100px;
+    /* background: chocolate; */
+    padding: 0 40px;
+}
+.d-concept-content{
+    display: flex;
+    margin-top: 40px;
+}
+.d-concept-left{
+    flex: 0.2;
+    /* min-width: 200px; */
+}
+.d-concept-left-img{
+    min-width: 100%;
+
+}
+.d-concept-center{
+    /* max-width: 600px; */
+    flex: 0.4;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.d-conceptTitle{
+    text-align: left;
+    font: normal normal bold 30px/40px Futura;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.d-conceptText{
+    margin-top: 20px;
+    text-align: left;
+    font: normal normal normal 20px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.d-concept-right{
+    flex: 0.4;
+    margin-top: -40px
+}
+.d-concept-right-img{
+    min-width: 100%;
+}
 /*
 
-
-
-      <div className="d-how-might-we">
-        <div className="d-how-might-we-content">
-          <p className="d-how-might-we-left">How might we?</p>
-          <p className="d-how-might-we-right">Create a system that helps a manager track everything from prelaunch to post launch. Identify problem areas and take quick actions.</p>
-        </div>
-      </div>
 
 
       <div className="d-concept">
