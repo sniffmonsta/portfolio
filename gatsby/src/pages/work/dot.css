@@ -326,6 +326,36 @@
     color: #000000;
     opacity: 1;
 }
+
+.d-solution{
+    width: 1100px;
+    align-self: center;
+    margin-top: 100px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+.d-solution-content{
+    max-width: 800px;
+    align-self: center;
+}
+.d-solution-content-line{
+    position: absolute;
+}
+.d-solution-content-text{
+    text-align: center;
+    font: italic normal 600 60px/80px Open Sans;
+    letter-spacing: 3.6px;
+    color: #000000;
+    margin-top: 40px;
+}
+.d-solution-content-highlight{
+    text-align: center;
+    font: italic normal 600 60px/80px Open Sans;
+    letter-spacing: 3.6px;
+    color: #F73939;
+    display: inline;
+}
 /*
 
 
