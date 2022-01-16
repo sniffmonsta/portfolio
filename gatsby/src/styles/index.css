@@ -54,6 +54,8 @@
 .aboutContainer{
     display: flex;
     flex-direction: row;
+    max-width: 1100px;
+    align-self: center;
 }
 .coolVibesContainer{
     padding-left: 100px;
