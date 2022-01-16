@@ -14,8 +14,8 @@ export default function SideBar() {
             </div>
             <div className='links'>
                 <CustomLink to='/' text='About' />
-                <CustomLink to='/play' text='Play' />
                 <CustomLink to='/work' text='Work' />
+                <CustomLink to='/play' text='Play' />
                 <CustomLink to='/connect' text='Connect' />
             </div>
         </div>
