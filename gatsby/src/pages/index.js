@@ -2,9 +2,8 @@ import React from "react"
 import Layout from "../components/Layout";
 import BreadCrumb from "../components/BreadCrumb";
 import '../styles/index.css';
-// import coolVibes from '../../static/coolVibes.png';
-// import coolVibes from '../../p1.png'
 import coolVibes from '../../static/coolVibes.png'
+import resumeButton from '../../static/resumeButton.png'
 
 export default function Home() {
   return (
@@ -33,6 +32,11 @@ export default function Home() {
         <div className="coolVibesContainer">
           <img src={coolVibes} className="coolVibesImage"/>
         </div>
+      </div>
+      <div className="resumeLinkContainer">
+        <a href="Resume_2022.pdf" target='_blank'>
+          <img src={resumeButton} className="resumeButtonImage"/>
+        </a>
       </div>
 
     </Layout>

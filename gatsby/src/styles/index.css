@@ -65,8 +65,20 @@
 }
 .coolVibesContainer{
     padding-left: 100px;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 .coolVibesImage{
     max-height: 500px;
+}
+
+.resumeLinkContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.resumeButtonImage{
+    align-self: center;
+    max-width: 300px;
 }
