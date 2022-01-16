@@ -79,7 +79,7 @@ export default function Play() {
       <div className="d-how-might-we">
         <div className="d-how-might-we-content">
           <p className="d-how-might-we-left">How might we?</p>
-          <p className="d-how-might-we-right">Create a system that helps a manager track everything from prelaunch to post launch. Identify problem areas and take quick actions.</p>
+          <p className="d-how-might-we-right">Help to improve social health and bridge the gap between one’s desires for social connection and actual experiences of it.</p>
         </div>
       </div>
 
