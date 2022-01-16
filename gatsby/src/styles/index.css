@@ -19,7 +19,6 @@
     bottom: -30px;
     left: 435px;
     font-size: 14px;
-    /* display: none; */
 }
 .introHello{
     text-align: left;
@@ -35,9 +34,6 @@
     letter-spacing: 0px;
     color: #000000;
     position: relative;
-    /* font-size: 30px;
-    line-height: 50px; */
-    /* font-weight: 300; */
 }
 .wordHighlight{
     color: white;
@@ -58,27 +54,25 @@
 .aboutContainer{
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
-    align-items: center;
-    /* background: chartreuse; */
-    /* justify-content: space-between; */
 }
 .coolVibesContainer{
     padding-left: 100px;
     margin-top: 0px;
 }
 .coolVibesImage{
-    max-height: 500px;
+    max-height: 400px;
+    margin-top: 100px;
 }
 
 .resumeLinkContainer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-left: -10px;
+
 }
 .resumeButtonImage{
     align-self: center;
-    max-width: 300px;
+    max-width: 200px;
 }

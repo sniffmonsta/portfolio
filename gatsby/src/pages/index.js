@@ -28,15 +28,15 @@ export default function Home() {
             <img src='../../wordHighlight.png' className='introHighlightImage'/> 
             A product <p className="wordHighlight">experience designer</p><br/>Based in India. Currently crafting new and exciting creative solutions for @pwc.
           </p>
+          <div className="resumeLinkContainer">
+            <a href="Resume_2022.pdf" target='_blank'>
+              <img src={resumeButton} className="resumeButtonImage"/>
+            </a>
+          </div>
         </div>
         <div className="coolVibesContainer">
           <img src={coolVibes} className="coolVibesImage"/>
         </div>
-      </div>
-      <div className="resumeLinkContainer">
-        <a href="Resume_2022.pdf" target='_blank'>
-          <img src={resumeButton} className="resumeButtonImage"/>
-        </a>
       </div>
 
     </Layout>
