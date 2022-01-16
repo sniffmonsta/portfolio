@@ -263,66 +263,70 @@
     margin-top: 100px;
     padding: 0 40px;
 }
+
+.d-idea{
+    max-width: 1100px;
+    align-self: center;
+    margin-top: 100px;
+    padding: 0 40px;
+}
+.d-idea-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.idea-block{
+    width: 40%;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-items: center; */
+    /* background: chocolate; */
+}
+.idea-block-top{
+    max-width: 80%
+}
+.idea-block-img{
+    width: 100%;
+}
+.idea-block-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    min-height: 300px;
+}
+.idea-block-left{
+    text-align: left;
+    font: normal normal bold 60px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #A17EFF;
+    opacity: 1;
+}
+.idea-block-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+.idea-block-right-title{
+    text-align: left;
+    font: normal normal bold 30px/40px Futura;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.idea-block-right-text{
+    text-align: left;
+    font: normal normal normal 20px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
 /*
-
-
-      <div className="d-storyboarding">
-        <p className="d-mini-title">STORYBOARDING</p>
-        <div className="d-storyboarding-content">
-            <img src={storyboard} className="d-storyboarding-img" />
-          </div>
-      </div>
-
-      <div className="d-idea">
-        <p className="d-mini-title">IDEA</p>
-        <p className="d-text">Everyone meets tons of people through their life, how many of us actually keep those relationships alive? We spoke to a few therapists to evaluate what works best in such cases and how can we connect with users who are feeling this way. That we we arrived at the below concepts</p>
-        <div className="d-idea-content">
-          <div className="idea-block">
-            <div className="idea-block-top">
-              <img src={idea1} className='idea-block-img'/>
-            </div>
-            <div className="idea-block-bottom">
-              <div className="idea-block-left">
-                <p>01/</p>
-              </div>
-              <div className="idea-block-right">
-                <p className="idea-block-right-title">Self Love</p>
-                <p className="idea-block-right-text">What if we created a self care cup? That helps you assess which spectrum of self care to focus on and provide tips to achieve the same.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="idea-block">
-            <div className="idea-block-top">
-              <img src={idea2} className='idea-block-img'/>
-            </div>
-            <div className="idea-block-bottom">
-              <div className="idea-block-left">
-                <p>02/</p>
-              </div>
-              <div className="idea-block-right">
-                <p className="idea-block-right-title">Relationship Map</p>
-                <p className="idea-block-right-text">Sometimes when we are feeling lonely, we can’t see what’s right in front of us. So making a list of all the connections you have and reconnecting will help you feel better</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="idea-block">
-            <div className="idea-block-top">
-              <img src={idea3} className='idea-block-img'/>
-            </div>
-            <div className="idea-block-bottom">
-              <div className="idea-block-left">
-                <p>03/</p>
-              </div>
-              <div className="idea-block-right">
-                <p className="idea-block-right-title">Acceptance Rate</p>
-                <p className="idea-block-right-text">A meter helps you assess how open you are to accepting people. It can act as a motivator, to see the shift to the right based on your efforts to keep a healthy social circle.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
       <div className="d-solution">

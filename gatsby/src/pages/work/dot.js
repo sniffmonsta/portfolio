@@ -165,7 +165,7 @@ export default function Play() {
 
 
       <div className="d-solution">
-        <p className="d-mini-title">STORYBOARDING</p>
+        <p className="d-mini-title">SOLUTION STATEMENT</p>
         <div className="d-solution-content">
             <img src={whiteBear} className="d-solution-content-line" />
             <p className="d-solution-content-text">
