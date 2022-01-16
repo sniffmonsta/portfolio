@@ -54,9 +54,9 @@ export default function Play() {
       </div>
 
       <div className="d-immersions">
+        <p className="d-mini-title">IMMERSIONS</p>
         <div className="d-immersions-top">
           <div className="d-immersions-left">
-            <p className="d-mini-title">IMMERSIONS</p>
             <p className="d-title">Why do we feel lonely?</p>
             <p className="d-text">Though our need to connect is innate, many of us frequently feel alone. Loneliness is the state of distress or discomfort that results when one perceives a gap between one’s desires for social connection and actual experiences of it.</p>
           </div>

@@ -66,8 +66,6 @@
 
 .d-mini-title{
     text-transform: uppercase;
-    margin-left: 40px;
-    margin-right: 40px;
     text-align: left;
     font: normal normal 900 20px/27px Avenir;
     letter-spacing: 0px;
@@ -109,3 +107,195 @@
     display: inline;
     font-weight: bold;
 }
+
+.d-title{
+    text-align: left;
+    font: normal normal bold 30px/40px Futura;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.d-text{
+    text-align: left;
+    font: normal normal normal 20px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.d-immersions{
+    width: 1100px;
+    align-self: center;
+    margin-top: 60px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+.d-immersions-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.d-immersions-left{
+    flex: 0.4;
+    max-width: 400px;
+    margin-right: 10px;
+}
+.d-immersions-right{
+    flex: 0.6;
+    margin-top: -80px;
+    /* display: block; */
+}
+.d-immersions-img{
+    min-width: 100%;
+}
+.d-immersions-middle{
+    width: 100%;
+    background: chocolate;
+    margin-top: 40px;
+}
+.d-immersions-middle-img{
+    min-width: 100%;
+}
+.d-immersions-bottom{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.d-mini-title-center{
+    font: normal normal bold 30px/40px Futura;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.d-immersions-bottom-img{
+    max-width: 100%;
+}
+
+/*
+
+
+
+      <div className="d-how-might-we">
+        <div className="d-how-might-we-content">
+          <p className="d-how-might-we-left">How might we?</p>
+          <p className="d-how-might-we-right">Create a system that helps a manager track everything from prelaunch to post launch. Identify problem areas and take quick actions.</p>
+        </div>
+      </div>
+
+
+      <div className="d-concept">
+        <p className="d-mini-title">CONCEPT</p>
+        <div className="d-concept-content">
+          <div className="d-concept-left">
+            <img src={beKind} className="d-concept-left-img" />
+          </div>
+          <div className="d-concept-center">
+            <p className="d-conceptTitle">What is social health?</p>
+            <p className="d-conceptText">
+              Social health can be defined as our ability to interact and form meaningful relationships with others. It also relates to how comfortably we can adapt in social situations. Social relationships have an impact on our mental health, physical health and mortality risk.
+              <br/><br/>
+              We began researching on ways to improve social health and they seem very simple at the first glance but they are actually very difficult to practise in daily life. We began brainstorming ideas to solve this.
+            </p>
+          </div>
+          <div className="d-concept-right">
+            <img src={threeDoodles} className="d-concept-right-img" />
+          </div>
+        </div>
+      </div>
+
+
+      <div className="d-storyboarding">
+        <p className="d-mini-title">STORYBOARDING</p>
+        <div className="d-storyboarding-content">
+            <img src={storyboard} className="d-storyboarding-img" />
+          </div>
+      </div>
+
+      <div className="d-idea">
+        <p className="d-mini-title">IDEA</p>
+        <p className="d-text">Everyone meets tons of people through their life, how many of us actually keep those relationships alive? We spoke to a few therapists to evaluate what works best in such cases and how can we connect with users who are feeling this way. That we we arrived at the below concepts</p>
+        <div className="d-idea-content">
+          <div className="idea-block">
+            <div className="idea-block-top">
+              <img src={idea1} className='idea-block-img'/>
+            </div>
+            <div className="idea-block-bottom">
+              <div className="idea-block-left">
+                <p>01/</p>
+              </div>
+              <div className="idea-block-right">
+                <p className="idea-block-right-title">Self Love</p>
+                <p className="idea-block-right-text">What if we created a self care cup? That helps you assess which spectrum of self care to focus on and provide tips to achieve the same.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="idea-block">
+            <div className="idea-block-top">
+              <img src={idea2} className='idea-block-img'/>
+            </div>
+            <div className="idea-block-bottom">
+              <div className="idea-block-left">
+                <p>02/</p>
+              </div>
+              <div className="idea-block-right">
+                <p className="idea-block-right-title">Relationship Map</p>
+                <p className="idea-block-right-text">Sometimes when we are feeling lonely, we can’t see what’s right in front of us. So making a list of all the connections you have and reconnecting will help you feel better</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="idea-block">
+            <div className="idea-block-top">
+              <img src={idea3} className='idea-block-img'/>
+            </div>
+            <div className="idea-block-bottom">
+              <div className="idea-block-left">
+                <p>03/</p>
+              </div>
+              <div className="idea-block-right">
+                <p className="idea-block-right-title">Acceptance Rate</p>
+                <p className="idea-block-right-text">A meter helps you assess how open you are to accepting people. It can act as a motivator, to see the shift to the right based on your efforts to keep a healthy social circle.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="d-solution">
+        <p className="d-mini-title">STORYBOARDING</p>
+        <div className="d-solution-content">
+            <img src={whiteBear} className="d-solution-content-line" />
+            <p className="d-solution-content-text">
+              It’s never too late to <p className="d-solution-content-highlight">socialise</p> or rekindle existing relationships.
+            </p>
+        </div>
+      </div>
+
+
+      <div className="d-you-choose">
+        <div className="d-you-choose-content">
+          <div className="d-you-choose-left">You choose <br/>when and how.</div>
+          <div className="d-you-choose-right">
+            <img src={whiteBear} className="d-you-choose-img" />
+          </div>
+        </div>
+      </div>
+
+
+      <div className="d-final">
+        <p className="d-mini-title">FINAL INTERFACE</p>
+        <div className="d-final-content">
+          <img src={ui} className="d-final-img" />
+        </div>
+      </div>
+
+*/
