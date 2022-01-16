@@ -6,9 +6,9 @@ import '../styles/work.css';
 import p1 from '../../static/projects/p1.png'
 import p2 from '../../static/projects/p2.png'
 import p3 from '../../static/projects/p3.png'
-import p4 from '../../static/projects/p5.png'
+import p4 from '../../static/projects/p4.png'
 import p5 from '../../static/projects/p5.png'
-import p6 from '../../static/projects/p5.png'
+import p6 from '../../static/projects/p6.png'
 
 export default function Work() {
   return (

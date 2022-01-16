@@ -11,11 +11,12 @@ import d_immersions from '../../../static/projects/p3/d_immersions.png'
 import d_survey from '../../../static/projects/p3/d_survey.png'
 import idea1 from '../../../static/projects/p3/idea1.png'
 import idea2 from '../../../static/projects/p3/idea2.png'
-import idea3 from '../../../static/projects/p3/idea2.png'
+import idea3 from '../../../static/projects/p3/idea3.png'
 import ui from '../../../static/projects/p3/ui.png'
 import storyboard from '../../../static/projects/p3/storyboard.png'
 import threeDoodles from '../../../static/projects/p3/threeDoodles.png'
 import line from '../../../static/projects/p3/line.png'
+import mushroom from '../../../static/projects/p3/mushroom.png'
 
 export default function Play() {
   return (
@@ -180,7 +181,7 @@ export default function Play() {
         <div className="d-you-choose-content">
           <div className="d-you-choose-left">You choose <br/>when and how.</div>
           <div className="d-you-choose-right">
-            <img src={whiteBear} className="d-you-choose-img" />
+            <img src={mushroom} className="d-you-choose-img" />
           </div>
         </div>
       </div>

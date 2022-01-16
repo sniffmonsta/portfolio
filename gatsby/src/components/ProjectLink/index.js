@@ -8,7 +8,7 @@ export default function ProjectLink(props) {
     return (
         <Link className='projectLink' to={link}>
             <div className={id}>
-                <img src={'../../'+imageUrl} className='projectImage' />
+                <img src={imageUrl} className='projectImage' />
             </div>
             <p className='projectTitle'>{title}</p>
             <p className='projectDescription'>{description}</p>

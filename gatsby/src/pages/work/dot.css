@@ -156,7 +156,6 @@
 }
 .d-immersions-middle{
     width: 100%;
-    background: chocolate;
     margin-top: 40px;
 }
 .d-immersions-middle-img{
@@ -181,7 +180,7 @@
 .d-how-might-we{
     display: flex;
     background: #000000;
-    margin-top: 60px;
+    margin-top: 100px;
     justify-content: center;
 }
 
@@ -343,7 +342,8 @@
 .d-solution-content-line{
     position: absolute;
     top: 110px;
-    left: 200px;
+    left: 196px;
+    max-width: 430px;
 }
 .d-solution-content-text{
     text-align: center;
@@ -394,7 +394,7 @@
     opacity: 1;
 }
 .d-you-choose-img{
-    max-width: 100px;
+    max-height: 120px;
 }
 
 .d-final{
@@ -404,6 +404,7 @@
     padding: 0 40px;
 }
 .d-final-content{
+    margin-top: 20px;
     width: 100%;
 }
 .d-final-img{
