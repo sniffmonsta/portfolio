@@ -14,9 +14,15 @@
   background: #A17EFF;
 }
 .p4{
+  background: #F7828B;
+}
+.p5{
   background: #6AE0EA;
 }
-.p1,.p2,.p3,.p4{
+.p6{
+  background: #2266E5;
+}
+.p1,.p2,.p3,.p4,.p5,.p6{
   padding: 10px 20px;
   width: 260px;
   height: 340px;
