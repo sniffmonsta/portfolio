@@ -25,7 +25,7 @@ export default function Play() {
   return (
     <Layout detail={{
       name: 'Adaptive Learning',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      desc: 'A platform for self learning that is defined by the unique learning paths students take.',
       team: ['Snigdha Narayan','Aishwarya Shetty', 'Anish Patel'],
       role: 'Lead UX Designer',
       duration: '12 Months'

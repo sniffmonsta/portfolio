@@ -22,8 +22,8 @@ import dashboard from '../../../static/projects/p2/dashboard.png'
 export default function Play() {
   return (
     <Layout detail={{
-      name: 'Innovation Dashboard',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      name: 'Innovation Dash',
+      desc: 'A predictive warning system to track market innovation performance',
       team: ['Snigdha Narayan','Anshumala Srivastava'],
       role: 'Lead UX Designer',
       duration: '4 weeks'

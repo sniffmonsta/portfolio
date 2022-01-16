@@ -21,7 +21,7 @@ export default function Play() {
   return (
     <Layout detail={{
       name: 'DoT',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      desc: 'A platform to improve social health by connecting those experiencing loneliness',
       team: ['Snigdha Narayan','Mukesh Manda'],
       role: 'Lead UX Designer',
       duration: '2 Months'
