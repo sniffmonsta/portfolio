@@ -342,6 +342,8 @@
 }
 .d-solution-content-line{
     position: absolute;
+    top: 110px;
+    left: 200px;
 }
 .d-solution-content-text{
     text-align: center;
