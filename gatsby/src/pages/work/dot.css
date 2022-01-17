@@ -44,7 +44,7 @@
 
 .d-introTitle{
     text-align: left;
-    font: normal normal 900 20px/27px Montserrat;
+    font: normal normal 900 20px/27px Avenir;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -67,7 +67,7 @@
 .d-mini-title{
     text-transform: uppercase;
     text-align: left;
-    font: normal normal 900 20px/27px Montserrat;
+    font: normal normal 900 20px/27px Avenir;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -110,7 +110,7 @@
 
 .d-title{
     text-align: left;
-    font: normal normal bold 30px/40px Nunito;
+    font: normal normal bold 30px/40px Futura;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -168,7 +168,7 @@
     align-items: center;
 }
 .d-mini-title-center{
-    font: normal normal bold 30px/40px Nunito;
+    font: normal normal bold 30px/40px Futura;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -194,7 +194,7 @@
 
 .d-how-might-we-left{
     text-align: left;
-    font: normal normal bold 36px/48px Nunito;
+    font: normal normal bold 36px/48px Futura;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -235,7 +235,7 @@
 }
 .d-conceptTitle{
     text-align: left;
-    font: normal normal bold 30px/40px Nunito;
+    font: normal normal bold 30px/40px Futura;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -313,7 +313,7 @@
 }
 .idea-block-right-title{
     text-align: left;
-    font: normal normal bold 30px/40px Nunito;
+    font: normal normal bold 30px/40px Futura;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -379,7 +379,7 @@
 
 .d-you-choose-left{
     text-align: left;
-    font: normal normal bold 59px/78px Nunito;
+    font: normal normal bold 59px/78px Futura;
     letter-spacing: 0px;
     color: #4C2DA2;
     opacity: 1;
