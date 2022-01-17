@@ -482,16 +482,16 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+    max-width: 320px;
     margin-left: 0;
     margin-right: 40px;
-    flex: 0.4;
 }
 .al-wireframe > p:nth-child(2n){
     margin-left: 40px;
     margin-right: 0px;
 }
 .al-wireframe-image-container{
-    flex: 1;
+    flex-grow: 1;
 }
 .al-wireframe-image-container > img{
     width: 100%;
