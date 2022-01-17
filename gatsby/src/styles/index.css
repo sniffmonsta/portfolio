@@ -22,7 +22,7 @@
 }
 .introHello{
     text-align: left;
-    font: normal normal bold 40px/53px Futura;
+    font: normal normal bold 40px/53px Nunito;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -30,7 +30,7 @@
 }
 .introText{
     text-align: left;
-    font: normal normal normal 30px/50px Avenir;
+    font: normal normal normal 30px/50px Montserrat;
     letter-spacing: 0px;
     color: #000000;
     position: relative;
