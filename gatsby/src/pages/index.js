@@ -4,11 +4,11 @@ import BreadCrumb from "../components/BreadCrumb";
 import '../styles/index.css';
 import coolVibes from '../../static/coolVibes.png'
 import resumeButton from '../../static/resumeButton.png'
-import useWindowDimensions from "../hooks/useWindowDimensions";
+import useWindowSize from "../hooks/useGatsbyWindowSize";
 import { Link } from 'gatsby'
 
 export default function Home() {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowSize();
   return (
     <Layout>
       {width>=1024?(
