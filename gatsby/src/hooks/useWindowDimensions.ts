@@ -11,8 +11,8 @@ function getWindowDimensions() {
     }
     else{
         return {
-            width: 0,
-            height: 0
+            width: 1800,
+            height: 1200,
         }
     }
 
