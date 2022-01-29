@@ -7,7 +7,7 @@ export default function SideBar() {
     return (
         <div className='sideBar'>
             <div className='logoHolder'>
-                <Link to='/' className='link'>
+                <Link to='/'>
                     <img src='../../logo.png' className='logo'/>    
                 </Link> 
                 

@@ -8,14 +8,13 @@ import useWindowDimensions from '../../hooks/useWindowDimensions';
 export default function Layout(props) {
     const {children, detail} = props;
     const { height, width } = useWindowDimensions();
-    console.log(width)
     return (
         <div className='layout'>
             {width>=1024?(
             <div className='sideBarContainer'>
                 {detail?<ProjectDetail detail={detail}/>:<SideBar />}
             </div>):null}
-            <div className='contentHolder'>
+            <div className={width>=1024?'contentHolder':'contentHolderMobile'}>
                 {width>=320?children:null}
             </div>
         </div>
