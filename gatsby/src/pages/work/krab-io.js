@@ -4,10 +4,14 @@ import BreadCrumb from "../../components/BreadCrumb"
 import './krab-io.css'
 import lottie from 'lottie-web'
 import animation from '../../../static/dude_blue.json'
+import comingSoon from '../../../static/comingSoon.json'
 
 
 export default function Krab() {
   let animationContainer = createRef();
+  let comingSoonContainer = createRef();
+
+  
   useEffect(() => {
     const anim = lottie.loadAnimation({
       container: animationContainer.current,
@@ -17,7 +21,18 @@ export default function Krab() {
       animationData: animation
     });
     return () => anim.destroy(); // optional clean up for unmounting
-  }, []);
+  }, [animationContainer]);
+
+  useEffect(() => {
+    const comingSoonText = lottie.loadAnimation({
+      container: comingSoonContainer.current,
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      animationData: comingSoon
+    });
+    return () => comingSoonText.destroy(); // optional clean up for unmounting
+  }, [comingSoonContainer]);
 
   return (
     <Layout>
@@ -31,8 +46,9 @@ export default function Krab() {
           text: 'Krab.io'
         }
       ]} />
-      <div className="comingSoon">
-        <div className="animationContainer" ref={animationContainer} />
+      <div className="comingSoon1">
+        <div className="animationContainer1" ref={animationContainer} />
+        <div className="comingSoonContainer1" ref={comingSoonContainer} />
       </div>
     </Layout>
   )
