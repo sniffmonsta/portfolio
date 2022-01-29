@@ -9,7 +9,7 @@ export default function Layout(props) {
     const {children, detail} = props;
     const { height, width } = useWindowDimensions();
     return (
-        <div className='layout'>
+        <div className={width>=1024?'layout':'layoutMobile'}>
             {width>=1024?(
             <div className='sideBarContainer'>
                 {detail?<ProjectDetail detail={detail}/>:<SideBar />}

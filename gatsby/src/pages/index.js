@@ -20,7 +20,7 @@ export default function Home() {
       ]} />):null}
 
       <div className={width>=1024?'aboutContainer':'aboutContainerMobile'}>
-        <div className="introContainer">
+        <div className={width>=1024?'introContainer':'introContainerMobile'}>
         {width<1024?
           (
             <div className='topLogo'>
@@ -44,10 +44,17 @@ export default function Home() {
             Hello, I’m Snigdha
           </p>
           <p className="introText">
-            <img src='../../wordHighlight.png' className='introHighlightImage'/> 
-            A product 
-            <p className="wordHighlight">experience designer</p><br/>
-            Based in India. Currently crafting new and exciting creative solutions for @pwc.
+            
+            {width>=1024?(
+              <>
+              <img src='../../wordHighlight.png' className='introHighlightImage'/> 
+              A product <p className="wordHighlight">experience designer</p><br/>Based in India. Currently crafting new and exciting creative solutions for @pwc.
+              </>
+            ):(
+              <>
+              A product experience designer. Based in India. Currently crafting new and exciting creative solutions for @pwc.
+              </>
+            )}
           </p>
           <div className="resumeLinkContainer">
             <a href="Resume_2022.pdf" target='_blank'>

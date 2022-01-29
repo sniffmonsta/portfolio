@@ -4,6 +4,13 @@
     height: 100%;
   }
 
+.layoutMobile {
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+}
+
+
 .sideBarContainer{
   width: 240px;
 }
