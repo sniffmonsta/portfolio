@@ -1,4 +1,4 @@
-import React, {useEffect, createRef} from "react"
+import React, {useCallback} from "react"
 import Layout from "../../components/Layout"
 import BreadCrumb from "../../components/BreadCrumb"
 import './krab-io.css'
@@ -8,31 +8,30 @@ import comingSoon from '../../../static/comingSoon.json'
 
 
 export default function Krab() {
-  let animationContainer = createRef();
-  let comingSoonContainer = createRef();
 
-  
-  useEffect(() => {
-    const anim = lottie.loadAnimation({
-      container: animationContainer.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: animation
-    });
-    return () => anim.destroy(); // optional clean up for unmounting
-  }, [animationContainer]);
+  const animationContainer =  useCallback(node => {
+    if (node !== null) {
+      const anim = lottie.loadAnimation({
+        container: node,
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        animationData: animation
+      });
+    }
+  }, []);
 
-  useEffect(() => {
-    const comingSoonText = lottie.loadAnimation({
-      container: comingSoonContainer.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: comingSoon
-    });
-    return () => comingSoonText.destroy(); // optional clean up for unmounting
-  }, [comingSoonContainer]);
+  let comingSoonContainer =  useCallback(node => {
+    if (node !== null) {
+      const comingSoonText = lottie.loadAnimation({
+        container: node,
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        animationData: comingSoon
+      });
+    }
+  }, []);
 
   return (
     <Layout>
